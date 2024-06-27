@@ -6,6 +6,7 @@ import RouteViews from "./routes/RouteViews";
 import { BrowserRouter } from "react-router-dom";
 import NavbarP from "./component/NavbarP";
 import Footer from "./component/Footer";
+import Contact from "./pages/Contact";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,7 +15,7 @@ function App() {
     <>
       <BrowserRouter>
         <NavbarP />
-        <RouteViews />
+        <Contact />
         <Footer />
       </BrowserRouter>
     </>
