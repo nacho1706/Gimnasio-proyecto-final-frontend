@@ -1,0 +1,13 @@
+.Carrusel{
+    height: 50px;
+}
+
+.btn-Producto{
+    display: flex;
+    justify-content: center;
+}
+
+.Conteiner{
+    box-shadow:   0px 1px 1px rgba(128, 128, 128, 0.5);
+}
+
