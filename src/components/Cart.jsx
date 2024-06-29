@@ -1,11 +1,12 @@
+import React from 'react'
 import "../css/cardC.css"
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Container } from 'react-bootstrap';
-
-const CartC = ({ImgCard, tituloCard, PrecioCard}) => {
+const Cart = ({ImgCard, tituloCard, PrecioCard}) => {
   return (
-    <Container className='card-style'>
+    <>
+     <Container className='card-style'>
   <Card className='m-2 bg-transparent card'>
     <Card.Img  className="img-card" src={ImgCard} />
     <Card.Body >
@@ -17,7 +18,8 @@ const CartC = ({ImgCard, tituloCard, PrecioCard}) => {
     </Card.Body>
   </Card>
     </Container>
-  );
-};
+    </>
+  )
+}
 
-export default CartC;
+export default Cart
