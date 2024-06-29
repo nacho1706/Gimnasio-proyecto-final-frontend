@@ -7,9 +7,9 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-section about">
           <img
-            src="i_will_design_eye_catching_modern_sports__fitness_and_gym_logo-removebg-preview.png"
+            src="src/assets/i_will_design_eye_catching_modern_sports__fitness_and_gym_logo-removebg-preview.png"
             alt=""
-            width={120}
+            width={200}
           />
         </div>
         <div className="footer-section location">
