@@ -3,7 +3,10 @@ import React from 'react'
 const ImagenC = ({urlImagen, altImagen, widthImagen}) => {
   return (
     <>
-    <img src={urlImagen} alt={altImagen} width={widthImagen} />
+   <div className='justify-content-center'>
+   <img className='img' src={urlImagen} alt={altImagen} width={widthImagen} 
+   style={{ maxWidth: `${widthImagen}px`, height: 'auto' }}/>
+   </div>
     </>
   )
 

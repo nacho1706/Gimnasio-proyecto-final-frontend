@@ -1,20 +1,20 @@
 export const productos =[
     {
         "id":1,
-        "titutlo": "Bolso Nike",
+        "titulo": "Bolso Nike",
         "precio": "$12000",
         "imagen": "../src/imagen/bolso.png"
     },
     {
         "id":2,
-        "titutlo": "Medias",
+        "titulo": "Medias",
         "precio": "$7000",
         "imagen": "../src/imagen/medias.png"
     },
     {
         "id":3,
         "id":1,
-        "tiulo": "Toallas",
+        "titulo": "Toallas",
         "precio": "$9500",
         "imagen": "../src/imagen/toalla.png"
     }
