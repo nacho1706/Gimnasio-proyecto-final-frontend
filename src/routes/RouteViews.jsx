@@ -7,7 +7,7 @@ const RouteViews = () => {
     <Routes>
         {/* IR AGREGANDO RUTAS */}
         <Route path="/homeUser" element={<HomeUser />}/>
-        <Route/>
+        <Route path="/login" element={}/>
         <Route/>
         <Route/>
         <Route/>
