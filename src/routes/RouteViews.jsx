@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom"
 import HomeUser from "../pages/HomeUser"
-import LoginU from "../pages/LoginU"
+import Login from "../pages/Login"
 
 
 const RouteViews = () => {
@@ -9,7 +9,7 @@ const RouteViews = () => {
     <Routes>
         {/* IR AGREGANDO RUTAS */}
         <Route path="/homeUser" element={<HomeUser />}/>
-        <Route path="/" element={<LoginU />}/>
+        <Route path="/Login" element={<Login />}/>
         <Route/>
         <Route/>
         <Route/>

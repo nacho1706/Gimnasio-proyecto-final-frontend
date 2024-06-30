@@ -1,17 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import HomeUser from './pages/HomeUser'
+import { BrowserRouter } from 'react-router-dom'
+import React from 'react'
+import RouteViews from './routes/RouteViews'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
     <>
-    <HomeUser />
-    <LoginU />
- </>
+    <BrowserRouter>
+       <RouteViews />
+    </BrowserRouter>
+    </>
   )
 }
 
