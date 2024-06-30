@@ -1,0 +1,47 @@
+.register-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .register-image {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: -1; 
+     }
+
+
+  .register-content {
+    flex: 1; /* Para que ocupe el espacio restante */
+    padding: 20px; /* Añade espaciado alrededor del formulario */
+  }
+
+  @media (min-width: 950px){
+    .register-imagen-movile{
+        display: none;
+        height: 100vh;
+      }
+  }
+
+  @media (max-width: 1000px) {
+    .register-imagen-movile{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1; 
+    }
+    .register-image{
+        display: none;
+    }
+    .form-container {
+      width: 100%; /* Cambia el ancho del formulario para pantallas más pequeñas */
+      max-width: none; /* Elimina el ancho máximo para dispositivos móviles */
+    }
+  }
+ 
