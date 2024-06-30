@@ -5,7 +5,12 @@ import Form from 'react-bootstrap/Form';
 
 const FormC = ({idPage}) => {
     const [form, setForm]= useState({})
-    const [error, setError] =useState ({});
+    const [error, setError] =useState ({
+        allImput: ``,
+        userError: ``,
+        passError: ``,
+        rpassError: ``,
+    });
 
     const handleChange =(ev)=>{
         const {name, value} = ev.target;
@@ -21,6 +26,12 @@ const FormC = ({idPage}) => {
             newError ={...error, allImput: `errorAllImput`}
             setError(newError);
         }else{
+            setError({
+                allImput: ``,
+                userError: ``,
+                passError: ``,
+                rpassError: ``,
+            })
             if(!userName){
                 newError = {...error, userError: "ErrorUser"}
             }
@@ -33,6 +44,10 @@ const FormC = ({idPage}) => {
 
             if(Object.keys(newError).length){
                 setError(newError);
+            }
+
+            if(userName && pass && rpass){
+                alert(`formulario enviado`)
             }
         }
     }

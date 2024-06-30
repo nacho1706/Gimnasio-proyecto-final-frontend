@@ -6,6 +6,9 @@ const Register = () => {
   return (
 
     <>
+    <div>
+        import { second as third } from 'first'
+    </div>
     <FormC idPage={"Register"}/>
     </>
   )
