@@ -1,0 +1,19 @@
+.form-conteiner{
+    background-color: #b4ced9;
+    border: solid #034aa6;
+    width: 350px;
+    border-radius: 15px;
+
+
+}
+
+.btn{
+    background-color: #f2bc1b;
+    border: #f2bc1b;
+    color: black;
+}
+
+.btn:hover{
+    background-color: black;
+    border: solid#034aa6;
+}

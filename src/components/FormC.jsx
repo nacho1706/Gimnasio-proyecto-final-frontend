@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-
+import "../css/Formulario.css"
 
 const FormC = ({idPage}) => {
     const [form, setForm]= useState({})
@@ -53,8 +53,8 @@ const FormC = ({idPage}) => {
     }
   return (
    <>
- <div className='d-flex justify-content-center mt-5'>
- <Form className='w-25'>
+ <div className='form-conteiner d-flex justify-content-center align-align-items-center '>
+ <Form className='m-3'>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Usuario</Form.Label>
         <Form.Control className={error.allImput === `errorAllImput` 
