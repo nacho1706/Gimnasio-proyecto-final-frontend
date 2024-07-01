@@ -9,7 +9,7 @@ const NavbarP = () => {
       <Container fluid className="navbar px-5">
         <Navbar.Brand href="#home">
           <img
-            src="i_will_design_eye_catching_modern_sports__fitness_and_gym_logo-removebg-preview.png"
+            src="src/assets/i_will_design_eye_catching_modern_sports__fitness_and_gym_logo-removebg-preview.png"
             alt=""
             width={120}
           />
