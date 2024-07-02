@@ -1,0 +1,22 @@
+.card-style{
+    background-color: transparent;
+    border-radius: 0;
+}
+.btn-card{
+    background-color: #f2bc1b;
+    border: #f2bc1b;
+    height: 40px;
+    width: 75px;
+    padding: 4px;
+}
+
+.btn-card:hover{
+    background-color: #111;
+    border: solid #29b7d9;
+}
+
+.img-card{
+    height: 300px;
+    object-fit: cover;
+}
+

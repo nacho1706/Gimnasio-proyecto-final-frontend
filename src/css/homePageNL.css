@@ -1,0 +1,45 @@
+.img{
+    object-fit: cover;
+    width: 100%;
+    height: 650px;
+}
+
+.text{
+    position: absolute;
+    top: 15%; /* Ajusta la posición verticalmente según sea necesario */ 
+    color: #afaca1;
+    font-weight: 50;
+    font-size: 2.2rem;
+}
+.text-evolution{
+    position: absolute;
+    top: 23%; /* Ajusta la posición verticalmente según sea necesario */
+     color: #fff;
+    font-weight: 900;
+    font-size: 3.2rem;
+}
+.btn{
+    position: absolute;
+    top: 52%;
+    transform: translate(-50%, -50%);
+    background-color: #f2bc1b;
+    border: #f2bc1b;
+    padding: 10px;
+}
+.btn:hover{
+    background-color: transparent;
+    border: solid #29b7d9;
+}
+
+.text-1{
+    color: #fff;
+    font-weight: 400;
+    font-size: 2.2rem;
+}
+
+@media (min-width: 460px) and (max-width: 176px){
+    .btn{
+        top: 40%;
+    }
+}
+
