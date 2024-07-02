@@ -1,0 +1,15 @@
+.navbar {
+  transition: background-color 0.3s ease;
+  text-decoration: white;
+  display: flex;
+  align-items: center;
+}
+
+.navbar:hover {
+  background-color: rgba(180, 206, 217, 0.5);
+  text-decoration: white;
+}
+
+.text-white {
+  color: white;
+}

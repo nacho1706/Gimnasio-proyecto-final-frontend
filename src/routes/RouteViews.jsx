@@ -1,19 +1,20 @@
-import { Route, Routes } from "react-router-dom"
+import { Route, Routes } from "react-router-dom";
+import Contact from "../pages/Contact";
 
 const RouteViews = () => {
   return (
     <>
-    <Routes>
+      <Routes>
         {/* IR AGREGANDO RUTAS */}
-        <Route/>
-        <Route/>
-        <Route/>
-        <Route/>
-        <Route/>
-        <Route/>
-    </Routes>
+        <Route path="/Contacto" element={<Contact />} />
+        <Route />
+        <Route />
+        <Route />
+        <Route />
+        <Route />
+      </Routes>
     </>
-  )
-}
+  );
+};
 
-export default RouteViews
+export default RouteViews;
