@@ -1,22 +1,14 @@
-import { useState } from "react";
-
+import RouteViews from "./routes/RouteViews";
 import { BrowserRouter } from "react-router-dom";
-import NavbarP from "./component/NavbarP";
-import Contact from "./pages/Contact";
-import Footer from "./component/Footer";
 
-function App() {
-  const [count, setCount] = useState(0);
-
+const App = () => {
   return (
     <>
       <BrowserRouter>
-        <NavbarP />
-        <Contact />
-        <Footer />
+        <RouteViews />
       </BrowserRouter>
     </>
   );
-}
+};
 
 export default App;
