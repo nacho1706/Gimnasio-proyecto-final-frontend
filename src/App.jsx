@@ -1,15 +1,16 @@
-import { BrowserRouter } from 'react-router-dom'
-import React from 'react'
-import RouteViews from './routes/RouteViews'
+import RouteViews from "./routes/RouteViews";
+import { BrowserRouter } from "react-router-dom";
+import React from "react";
+import RouteViews from "./routes/RouteViews";
 
 const App = () => {
   return (
     <>
-    <BrowserRouter>
-       <RouteViews />
-    </BrowserRouter>
+      <BrowserRouter>
+        <RouteViews />
+      </BrowserRouter>
     </>
   );
-}
+};
 
-export default App; 
+export default App;
