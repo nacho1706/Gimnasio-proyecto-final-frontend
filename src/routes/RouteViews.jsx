@@ -14,7 +14,7 @@ const RouteViews = () => {
         <Route path="/Login" element={<Login />} />
         <Route path="/Register" element={<Register />} />
         <Route path="/Contact" element={<Contact />} />
-        <Route path="/error-404" element={<NotFound />} />
+        <Route path="/NotFund" element={<NotFound />} />
         <Route />
         <Route />
       </Routes>

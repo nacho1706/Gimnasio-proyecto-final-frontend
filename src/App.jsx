@@ -1,13 +1,15 @@
+import Footer from "./component/Footer";
+import NavbarP from "./component/NavbarP";
 import RouteViews from "./routes/RouteViews";
 import { BrowserRouter } from "react-router-dom";
-import React from "react";
-import RouteViews from "./routes/RouteViews";
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
+        <NavbarP />
         <RouteViews />
+        <Footer />
       </BrowserRouter>
     </>
   );
