@@ -9,7 +9,7 @@ const App = () => {
        <RouteViews />
     </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App; 
