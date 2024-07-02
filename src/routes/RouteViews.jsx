@@ -10,12 +10,12 @@ const RouteViews = () => {
     <>
       <Routes>
         {/* IR AGREGANDO RUTAS */}
-        <Route path="/homeUser" element={<HomeUser />} />
+        <Route path="/" element={<HomeUser />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/Register" element={<Register />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/NotFund" element={<NotFound />} />
-        <Route />
+        <Route path="*" element={<NotFound />} />
         <Route />
       </Routes>
     </>
