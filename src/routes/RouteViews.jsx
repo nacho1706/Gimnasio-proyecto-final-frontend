@@ -4,6 +4,7 @@ import Login from "../pages/Login";
 import Register from "../pages/Register";
 import Contact from "../pages/Contact";
 import NotFound from "../pages/NotFund";
+import AboutUs from "../pages/AboutUs";
 
 const RouteViews = () => {
   return (
@@ -14,9 +15,8 @@ const RouteViews = () => {
         <Route path="/Login" element={<Login />} />
         <Route path="/Register" element={<Register />} />
         <Route path="/Contact" element={<Contact />} />
-        <Route path="/NotFund" element={<NotFound />} />
+        <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="*" element={<NotFound />} />
-        <Route />
       </Routes>
     </>
   );
