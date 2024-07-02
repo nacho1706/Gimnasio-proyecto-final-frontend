@@ -5,19 +5,16 @@ import "../pages/style/AboutUs.css";
 const teamMembers = [
   {
     name: "Integrante 1",
-    role: "Rol 1",
     description: "Descripción del Integrante 1.",
     imageUrl: "url_de_imagen_integrante_1.jpg",
   },
   {
     name: "Integrante 2",
-    role: "Rol 2",
     description: "Descripción del Integrante 2.",
     imageUrl: "url_de_imagen_integrante_2.jpg",
   },
   {
     name: "Integrante 3",
-    role: "Rol 3",
     description: "Descripción del Integrante 3.",
     imageUrl: "url_de_imagen_integrante_3.jpg",
   },
