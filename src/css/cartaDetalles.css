@@ -1,0 +1,20 @@
+.cartaDetalles{
+    width: 300px;
+    margin: 5px;
+    background-color: #034aa6;
+}
+.imgC{
+    width: 130px;
+    height: 170px;
+    object-fit: cover;
+
+}
+
+@media (max-width: 770px){
+    .cartaDetalles{
+        width: 240px;
+    }
+    .img{
+        display: none;
+    }
+}
