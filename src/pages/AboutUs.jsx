@@ -4,17 +4,17 @@ import "../pages/style/AboutUs.css";
 
 const teamMembers = [
   {
-    name: "Integrante 1",
+    name: "Facundo Parizzi",
     description: "Descripción del Integrante 1.",
     imageUrl: "url_de_imagen_integrante_1.jpg",
   },
   {
-    name: "Integrante 2",
+    name: "Agustina Prado",
     description: "Descripción del Integrante 2.",
     imageUrl: "url_de_imagen_integrante_2.jpg",
   },
   {
-    name: "Integrante 3",
+    name: "Ignacio Albarracin",
     description: "Descripción del Integrante 3.",
     imageUrl: "url_de_imagen_integrante_3.jpg",
   },
@@ -22,11 +22,11 @@ const teamMembers = [
 
 const AboutUs = () => {
   return (
-    <div className="about-us">
+    <div className="about-us text-white">
       <h1>Acerca de Nosotros</h1>
       <div className="team">
         {teamMembers.map((member, index) => (
-          <div key={index} className="team-member">
+          <div key={index} className="team-member text-white">
             <img src={member.imageUrl} alt={member.name} />
             <h2>{member.name}</h2>
             <h3>{member.role}</h3>
