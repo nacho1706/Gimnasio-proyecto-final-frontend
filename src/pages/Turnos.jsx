@@ -4,11 +4,9 @@ import 'boxicons'
 import { semanaUno } from '../Helperss/arrayTurnos';
 import { Container } from 'react-bootstrap';
 import "../css/detalles.css"
-import ModalC from '../components/ModalC';
 const Turnos = () => {
   return (
     <>
-<ModalC />
     <Container> 
 
        {semanaUno.map((sUno) => (
