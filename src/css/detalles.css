@@ -1,3 +1,15 @@
 .img{
     position: relative;
 }
+
+.classBTN{
+
+    border: solid #f2bc1b;
+    background-color: transparent;
+    color: #f2bc1b;
+}
+
+.classBTN:hover{
+    border: solid #b4ced9;
+    background-color: transparent;
+    color: #b4ced9;}
