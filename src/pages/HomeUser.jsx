@@ -9,6 +9,7 @@ import Cart from '../components/Cart';
 import Img from '../components/Img';
 import { planes, productos, profesores } from '../Helperss/arrayHomeUser';
 import NavbarP from '../components/NavbarP';
+import FototerC from '../components/FototerC';
 
 const HomeUser = () => {
   document.title = "Pagina Principal"
@@ -59,6 +60,7 @@ const HomeUser = () => {
         ))}
        </Row>
     </Container>
+    <FototerC />
    </> 
   )
 }
