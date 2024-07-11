@@ -18,8 +18,8 @@ const NavbarP = () => {
         <Navbar.Collapse id="basic-navbar-nav">
         <Nav.Link href="/HomeUser"><img src={icono} alt="" width={90} /></Nav.Link>
           <Nav className="me-auto">
-            <Nav.Link href="#link">Nosotros</Nav.Link>
-            <Nav.Link href="#link">Planes</Nav.Link>
+            <Nav.Link href="/Nosotros">Nosotros</Nav.Link>
+            <Nav.Link href="/Turnos">Turnos</Nav.Link>
           </Nav>
           <Nav>
             <Nav className="ms-auto">

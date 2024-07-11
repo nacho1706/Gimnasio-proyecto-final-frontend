@@ -4,9 +4,11 @@ import 'boxicons'
 import { semanaUno } from '../Helperss/arrayTurnos';
 import { Container } from 'react-bootstrap';
 import "../css/detalles.css"
+import NavbarP from '../components/NavbarP';
 const Turnos = () => {
   return (
     <>
+    <NavbarP />
     <Container> 
 
        {semanaUno.map((sUno) => (
