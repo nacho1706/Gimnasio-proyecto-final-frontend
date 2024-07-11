@@ -8,15 +8,17 @@ import Button from 'react-bootstrap/Button';
 import Cart from '../components/Cart';
 import Img from '../components/Img';
 import { planes, productos, profesores } from '../Helperss/arrayHomeUser';
+import NavbarP from '../components/NavbarP';
 
 const HomeUser = () => {
   document.title = "Pagina Principal"
 
   return (
     <>
+    <NavbarP />
     <Container className="d-flex justify-content-center align-items-center mt-2">
     <Container className='img'>
-    <Img urlImagen={imgPrincipal} widthImagen={1000}/>
+    <Img urlImagen={imgPrincipal} widthImagen={1100}/>
     </Container>
     </Container>
     <Container className='Conteiner mt-4' >
