@@ -6,10 +6,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 import { Col, Container, Row } from 'react-bootstrap';
 import { detalles } from '../Helperss/arrayDetalle';
+import NavbarP from '../components/NavbarP';
+import FototerC from '../components/FototerC';
 
 const Detalles = () => {
   return (
     <>
+    <NavbarP />
     <Container className='d-flex justify-content-center align-items-center '>
         <Container className='d-flex justify-content-center align-items-center img'>
         <img className=' img' src={ImgDetalle} alt="" width={1100}/>
@@ -31,6 +34,7 @@ const Detalles = () => {
         </Container>
   
     </Container>
+    <FototerC />
     </>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import NavbarP from '../components/NavbarP'
+import FototerC from '../components/FototerC'
 
 const Nosotros = () => {
   return (
@@ -16,6 +17,7 @@ const Nosotros = () => {
         </div>
         
     </div>
+    <FototerC />
     </>
 )
 }

@@ -23,8 +23,8 @@ const NavbarP = () => {
           </Nav>
           <Nav>
             <Nav className="ms-auto">
-              <Nav.Link href="#link">Iniciar Sesion</Nav.Link>
-              <Nav.Link href="#link">Registrarse</Nav.Link>
+              <Nav.Link href="/Login">Iniciar Sesion</Nav.Link>
+              <Nav.Link href="/Register">Registrarse</Nav.Link>
             </Nav>
           </Nav>
         </Navbar.Collapse>
