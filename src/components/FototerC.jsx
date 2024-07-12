@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom/dist'
 const FototerC = () => {
   return (
     <>
-    <Container fluid className='pt-1 mt-auto bg-transparent fixed'>
+    <Container fluid className='pt-1 mt-auto bg-transparent '>
         <Row>
             <Col md={12} lg={3} className='text-center'>
             <img src={logo} alt="" width={100}/>

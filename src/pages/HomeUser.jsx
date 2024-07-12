@@ -10,6 +10,8 @@ import Img from '../components/Img';
 import { planes, productos, profesores } from '../Helperss/arrayHomeUser';
 import NavbarP from '../components/NavbarP';
 import FototerC from '../components/FototerC';
+import { Link } from 'react-router-dom/dist';
+import CarDe from '../components/CarDe';
 
 const HomeUser = () => {
   document.title = "Pagina Principal"
@@ -25,13 +27,14 @@ const HomeUser = () => {
     <Container className='Conteiner mt-4' >
       <Row className="justify-content-center">
         <Col className="d-flex justify-content-center align-items-center ">
-        <Button className='m-1' variant="outline-warning">Productos</Button>
+        <Link to='/Error404' className=" btn bgVerde border-0 ">Producto</Link>
         </Col>
         <Col lg={10}>
        <Row className="justify-content-center">
         {productos.map((producto) =>(
           <Col sm={12} md={6} lg={4}>
-          <Cart ImgCard={producto.imagen} tituloCard={producto.titulo} desCard={producto.precio}/> 
+            
+           <Cart ImgCard={producto.imagen} tituloCard={producto.titulo} desCard={producto.precio}/> 
            </Col>
         ))}
        </Row>
@@ -45,7 +48,7 @@ const HomeUser = () => {
         <Row className='justify-content-center'> 
        {planes.map((plan) => (
           <Col sm={12} md={6} lg={4}>
-         <Cart className="cardPlan" ImgCard={plan.imagenPlanes} tituloCard={plan.tipo} desCard={plan.descripcion}/> 
+         <CarDe className="cardPlan" ImgCard={plan.imagenPlanes} tituloCard={plan.tipo} desCard={plan.descripcion}/> 
           </Col>
         ))}
        </Row>

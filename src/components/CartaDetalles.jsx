@@ -1,7 +1,7 @@
 import React from 'react'
 import "../css/cartaDetalles.css"
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom/dist';
 
 const CartaDetalles = ({imagen, titulo, descripcion }) => {
   return (
@@ -15,7 +15,7 @@ const CartaDetalles = ({imagen, titulo, descripcion }) => {
         <Card.Title>{titulo}</Card.Title>
         <Card.Text>{descripcion}
         </Card.Text>
-        <Button variant="primary">Unirme</Button>
+    <Link to='/Error404' className=" btn bgVerde border-0 ">Unirme</Link>
       </Card.Body>
     </Card>
     </div>
